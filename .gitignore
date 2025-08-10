@@ -1,0 +1,6 @@
+node_modules
+output.fdfs
+temp_f
+ffmpeg
+*.mp4
+package-lock.json
