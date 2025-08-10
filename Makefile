@@ -40,8 +40,9 @@ clean:
 	@echo "Temizlik tamamlandi."
 
 fclean: clean
-    @rm -rf node_modules package-lock.json
-    @echo "Derin temizlik tamamlandi."
+	@rm -rf node_modules package-lock.json
+	@echo "Derin temizlik tamamlandi."
+
 
 .PHONY: all check_ffmpeg install_ffmpeg clean fclean
 
