@@ -1,7 +1,26 @@
 {
+  "name": "fdf-videomaker",
+  "version": "1.0.0",
+  "description": "A video maker application",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "license": "MIT",
+  "author": "CilginSinek",
+  "keywords": [
+    "video",
+    "maker",
+    "editor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CilginSinek/fdf-videomaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CilginSinek/fdf-videomaker/issues"
+  },
+  "homepage": "https://github.com/CilginSinek/fdf-videomaker#readme",
   "dependencies": {
     "jimp": "^1.6.0"
   }
